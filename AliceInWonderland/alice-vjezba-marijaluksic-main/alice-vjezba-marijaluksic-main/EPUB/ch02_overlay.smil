@@ -1,0 +1,29 @@
+<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">
+    <body>
+        <seq id="id1" epub:textref="ch02.xhtml#the_pool_of_tears" epub:type="bodymatter chapter">
+            <par id="heading01">
+                <text src="ch02.xhtml#ch02h01"/>
+                <audio src="audio/audio.mp3" clipBegin="0:00:00" clipEnd="0:00:01.400" />
+            </par>
+            <par id="heading02">
+                <text src="ch02.xhtml#ch02h02"/>
+                <audio src="audio/audio.mp3" clipBegin="0:00:01.400" clipEnd="0:00:03.460" />
+            </par>
+
+            <par id="p01">
+                <text src="ch02.xhtml#ch02p01"/>
+                <audio src="audio/audio.mp3" clipBegin="0:00:04.570" clipEnd="0:00:50.920" />
+            </par>
+
+            <par id="p02">
+                <text src="ch02.xhtml#ch02p02"/>
+                <audio src="audio/audio.mp3" clipBegin="0:00:50.920" clipEnd="0:01:04.670" />
+            </par>
+
+            <par id="p03">
+                <text src="ch02.xhtml#ch02p03"/>
+                <audio src="audio/audio.mp3" clipBegin="0:01:04.670" clipEnd="0:01:11.410" />
+            </par>
+        </seq>
+    </body>
+</smil>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="epub-id">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+		<dc:identifier id="epub-id">http://lccn.loc.gov/16014724</dc:identifier>
+        	<meta refines="#epub-id" property="identifier-type" scheme="onix:codelist5">13</meta>
+			<meta property="dcterms:modified">2021-03-29T04:39:13Z</meta>
+    
+    	<dc:title id="t1">Alice's Adventures in Wonderland</dc:title>
+    
+    	<dc:language>en</dc:language>
+    
+    	<dc:description>A girl named Alice falls into a rabbit hole, where she encounters a world of strange creatures.</dc:description>
+    
+    	<dc:creator id="author">Lewis Carroll</dc:creator>
+			<meta refines="#author" property="file-as">Carroll, Lewis, 1832-1898</meta>
+     		<meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+    
+    	<dc:creator id="illustrator">Joh Tenniel</dc:creator>
+			<meta refines="#illustrator" property="file-as">Tenniel, Joh</meta>
+     		<meta refines="#illustrator" property="role" scheme="marc:relators">ill</meta>
+     
+    	<dc:publisher>London: Macmillan</dc:publisher>
+     
+		<dc:date>1928-01-01T00:00:00Z</dc:date>
+    
+    	<dc:subject id="subject">FICTION / Fantasy/ Action &amp; Adventure</dc:subject>
+    		<meta refines="#subject" property="authority">BISAC</meta>
+    		<meta refines="#subject" property="term">FIC009100</meta>
+        <!--MEDIA OVERLAY METADATA-->
+  	<meta property="media:duration" refines="#ch02_overlay">0:01:11.410</meta>
+  	<meta property="media:duration">0:01:11.410</meta>
+  	<meta property="media:narrator">Kara Shallenberg</meta>
+
+    <meta property="media:active-class">-epub-media-overlay-active</meta>
+	<meta property="media:playback-active-class">-epub-media-overlay-playing</meta>
+	</metadata>
+  	<manifest>
+  		<item id="logo-image" href="images/potpis.jpg" media-type="image/jpeg"/>
+		<item id="signature-image" href="images/potpisautora.jpg" media-type="image/jpeg"/>
+  		<item id="cover-image" href="images/kingandqueen.jpg" media-type="image/jpeg" fallback="svg8"/>
+		<item id="navdoc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="svg8" href="kingandqueen.svg" media-type="image/svg+xml"/>
+		<item id="svg7" href="potpis.svg" media-type="image/svg+xml"/>
+		<item id="svg6" href="potpisautora.svg" media-type="image/svg+xml"/>
+		<item id="chapter02Image1" href="images/longneckgirl.jpg" media-type="image/jpeg"/>
+		<item id="chapter02Image2" href="images/alicelookingatrabbit.jpg" media-type="image/jpeg" properties="cover-image"/>
+		<item id="chapter02Image3" href="images/drowning.jpg" media-type="image/jpeg"/>
+		<item id="chapter02Image4" href="images/ratswim.jpg" media-type="image/jpeg"/>
+	
+		<item id="chapter07Image1" href="images/tea_party.jpg" media-type="image/jpeg"/>
+		<item id="chapter07Image2" href="images/yawn.jpg" media-type="image/jpeg"/>
+		<item id="chapter07Image3" href="images/mousesoup.jpg" media-type="image/jpeg"/>
+		<item id="style" href="css/base.css" media-type="text/css"/>
+  
+		<item id="xintroduction_001" href="title.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item id="xintroduction_002" href="seriespage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item id="xintroduction_003" href="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml"/>
+		<item id="xpreface_001" href="preface.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+	
+		<item id="xchapter_002" href="ch02.xhtml" media-type="application/xhtml+xml" media-overlay="ch02_overlay"/>
+		<item id="xchapter_007" href="ch07.xhtml" media-type="application/xhtml+xml"/>
+	
+		<item id="xepigraph_001" href="conclusion.xhtml" media-type="application/xhtml+xml"/>
+		<item id="xepigraph_002" href="bozic.xhtml" media-type="application/xhtml+xml"/>
+		<item id="xepigraph_003" href="printed.xhtml" media-type="application/xhtml+xml"/>
+		<item id="xepigraph_004" href="bibliography.xhtml" media-type="application/xhtml+xml"/>	
+		
+		<item id="font.latin_modern_roman10_bold" href="css/web_fonts/latinmodernroman_10bold_macroman/lmroman10-bold-webfont.woff" media-type="application/font-woff"/>
+		<item id="font.latin_modern_roman_dunhil10Rg" href="css/web_fonts/latinmodernromandunhill_10regular_macroman/lmromandunh10-regular-webfont.woff" media-type="application/font-woff"/>
+		<item id="font.latin_modern_roman_caps10Rg" href="css/web_fonts/latinmodernromancaps_10regular_macroman/lmromancaps10-regular-webfont.woff" media-type="application/font-woff"/>
+		<item id="font.latin_modern_roman10_italic" href="css/web_fonts/latinmodernroman_10italic_macroman/lmroman10-italic-webfont.woff" media-type="application/font-woff"/>
+	  
+	  	<!-- <item id="videoclip" href="video/movie.mp4" media-type="video/mp4" /> -->
+		<item id="videoclipfallback" href="https://vimeo.com/554221299" media-type="video/webm" />
+		<item id="poster" href="images/poster.png" media-type="image/png" />
+
+	  	<item id="video" href="video.xhtml" media-type="application/xhtml+xml" properties="remote-resources" />
+
+		<item id="ch02_overlay" href="ch02_overlay.smil" media-type="application/smil+xml"/>
+		<item id="audioch02" href="audio/audio.mp3" media-type="audio/mpeg"/>
+	  </manifest>
+  	<spine>
+  		<itemref idref="xintroduction_001" linear="yes"/>
+		<itemref idref="xintroduction_002" linear="yes"/>
+		<itemref idref="xintroduction_003" linear="yes"/>
+    	<itemref idref="copyright" linear="yes"/>
+		<itemref idref="cover-image" linear="yes"/>
+    	<itemref idref="xpreface_001" linear="yes"/>
+		<itemref idref="navdoc" linear="yes"/>
+    	<itemref linear="yes" idref="xchapter_002"/>
+    	<itemref linear="yes" idref="xchapter_007"/>
+    	<itemref idref="xepigraph_001" linear="yes"/>
+		<itemref idref="xepigraph_002" linear="yes"/>
+		<itemref idref="xepigraph_003" linear="yes"/>
+		<itemref idref="xepigraph_004" linear="yes"/>
+		<itemref idref="video" linear="yes"/>
+  	</spine>
+</package>

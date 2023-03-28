@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:epub="http://www.idpf.org/2007/ops"
+  xml:lang="en"
+  lang="en"
+>
+  <head>
+    <title>Preface</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css" />
+  </head>
+  <body epub:type="frontmatter">
+    <section epub:type="preface">
+      <p id="par1" class="kopirajtt">
+        <span class="uvlaka3">All in the golden afternoon</span><br/>
+        <span class="uvlaka4">Full leisurely we glide;</span><br/>
+        <span class="uvlaka3">For both our oars, with little skill,</span><br/>
+        <span class="uvlaka4">By little arms are plied,</span><br/>
+        <span class="uvlaka3">While little hands make vain pretence</span><br/>
+        <span class="uvlaka4">Our wanderings to guide.</span><br/><br/>
+      </p>
+      <p id="par2">
+        <span class="uvlaka3">Ah, cruel Three! In such an hour,</span><br/>
+        <span class="uvlaka4">Beneath such dreamy weather,</span><br/>
+        <span class="uvlaka3">To beg a tale of breath too weak</span><br/>
+        <span class="uvlaka4">To stir the tiniest feather!</span><br/>
+        <span class="uvlaka3">Yet what can one poor voice avail</span><br/>
+        <span class="uvlaka4">Against three tongues together?</span><br/><br/>
+      </p>
+      <p id="par3">
+        <span class="uvlaka3" id="stih19">Imperious Prima flashes forth</span
+        ><br/>
+        <span class="uvlaka4" id="stih20">Her edict "to begin it"—</span><br/>
+        <span class="uvlaka3" id="snowy">In gentler tones Secunda hopes</span
+        ><br/>
+        <span class="uvlaka4" id="evening"
+          >"There will be nonsense in it!"—</span
+        ><br/>
+        <span class="uvlaka3" id="stih21">While Tertia interrupts the tale</span
+        ><br/>
+        <span class="uvlaka4" id="robert">Not more than once a minute.</span
+        ><br/><br/>
+      </p>
+
+      <p id="par4">
+        <span class="uvlaka3" id="stih28">Anon, to sudden silence won,</span
+        ><br/>
+        <span class="uvlaka4" id="stih29">In fancy they pursue</span><br/>
+        <span class="uvlaka3" id="stih1"
+          >The dream-child moving through a land</span
+        ><br/>
+        <span class="uvlaka4" id="stih2">Of wonders wild and new,</span><br/>
+        <span class="uvlaka3" id="stih3"
+          >In friendly chat with bird or beast—</span
+        ><br/>
+        <span class="uvlaka4" id="stih4">And half believe it true.</span
+        ><br/><br/>
+      </p>
+      <p id="par5">
+        <span class="uvlaka3" id="stih22">And ever, as the story drained</span
+        ><br/>
+        <span class="uvlaka4" id="stih23">The wells of fancy dry,</span><br/>
+        <span class="uvlaka3" id="stih5">And faintly strove that weary one</span
+        ><br/>
+        <span class="uvlaka4" id="stih6">To put the subject by,</span><br/>
+        <span class="uvlaka3" id="stih7"
+          >"The rest next time—" "It is next time!"</span
+        ><br/>
+        <span class="uvlaka4" id="stih8">The happy voices cry.</span
+        ><br/><br/>
+      </p>
+      <p id="par6">
+        <span class="uvlaka3" id="stih24"
+          >Thus grew the tale of Wonderland:</span
+        ><br/>
+        <span class="uvlaka4" id="stih25">Thus slowly, one by one,</span><br/>
+        <span class="uvlaka3" id="stih9"
+          >Its quaint events were hammered out—</span
+        ><br/>
+        <span class="uvlaka4" id="stih10">And now the tale is done,</span><br/>
+        <span class="uvlaka3" id="stih11">And home we steer, a merry crew,</span
+        ><br/>
+        <span class="uvlaka4" id="stih12">Beneath the setting sun.</span
+        ><br/><br/>
+      </p>
+      <p id="par7">
+        <span class="uvlaka3" id="stih26">Alice! A childish story take,</span
+        ><br/>
+        <span class="uvlaka4" id="stih27">And with a gentle hand,</span><br/>
+        <span class="uvlaka3" id="stih13"
+          >Lay it where Childhood's dreams are twined</span
+        ><br/>
+        <span class="uvlaka4" id="stih14">In Memory's mystic band,</span><br/>
+        <span class="uvlaka3" id="stih15"
+          >Like pilgrim's withered wreath of flowers</span
+        ><br/>
+        <span class="uvlaka4" id="stih16">Plucked in far-off land</span
+        ><br/><br/>
+      </p>
+      <form action="">
+        <p>Write down/select your favourite color</p>
+        <br/>
+        <input type="color" id="boja" /><br/><br/>
+        <button id="border">Set colored borders around the text!</button>
+        <button id="tekst">Change the color of the text!</button><br/><br/>
+        <button id="gas">Click me if you wish to uncover a hidden text!</button>
+        <button id="nogas">Undo</button>
+      </form>
+    </section>
+    <script type="text/javascript">
+      <![CDATA[
+          document.getElementById("border").onclick = function (event) {
+            var oboji = document.getElementById("boja").value;
+            document.getElementById("par1").style.border = "5px solid";
+            document.getElementById("par1").style.borderColor = oboji;
+            document.getElementById("par2").style.border = "5px solid";
+            document.getElementById("par2").style.borderColor = oboji;
+            document.getElementById("par3").style.border = "5px solid";
+            document.getElementById("par3").style.borderColor = oboji;
+            document.getElementById("par4").style.border = "5px solid";
+            document.getElementById("par4").style.borderColor = oboji;
+            document.getElementById("par5").style.border = "5px solid";
+            document.getElementById("par5").style.borderColor = oboji;
+            document.getElementById("par6").style.border = "5px solid";
+            document.getElementById("par6").style.borderColor = oboji;
+            document.getElementById("par7").style.border = "5px solid";
+            document.getElementById("par7").style.borderColor = oboji;
+            event.preventDefault();
+          };
+          document.getElementById("tekst").onclick = function (event) {
+            var oboji = document.getElementById("boja").value;
+            document.getElementById("par1").style.color = oboji;
+            document.getElementById("par2").style.color = oboji;
+            document.getElementById("par3").style.color = oboji;
+            document.getElementById("par4").style.color = oboji;
+            document.getElementById("par5").style.color = oboji;
+            document.getElementById("par6").style.color = oboji;
+            document.getElementById("par7").style.color = oboji;
+            event.preventDefault();
+          };
+          document.getElementById("gas").onclick = function (event) {
+            document.getElementById('snowy').innerHTML = '';
+            document.getElementById('snowy').innerHTML = 'Stopping by Woods on';
+            document.getElementById('snowy').style.fontSize = '35px';
+            document.getElementById('snowy').style.fontWeight = '900';
+            document.getElementById('evening').innerHTML = '';
+            document.getElementById('evening').innerHTML = 'a Snowy Evening';
+            document.getElementById('evening').style.fontSize = '35px';
+            document.getElementById('evening').style.fontWeight = '900';
+            document.getElementById('robert').innerHTML = '';
+            document.getElementById('robert').innerHTML = 'by Robert Frost';
+            document.getElementById('robert').style.fontWeight = '700';
+            document.getElementById('stih1').innerHTML = '';
+            document.getElementById('stih2').innerHTML = '';
+            document.getElementById('stih3').innerHTML = '';
+            document.getElementById('stih4').innerHTML = '';
+            document.getElementById('stih5').innerHTML = '';
+            document.getElementById('stih6').innerHTML = '';
+            document.getElementById('stih7').innerHTML = '';
+            document.getElementById('stih8').innerHTML = '';
+            document.getElementById('stih9').innerHTML = '';
+            document.getElementById('stih10').innerHTML = '';
+            document.getElementById('stih11').innerHTML = '';
+            document.getElementById('stih12').innerHTML = '';
+            document.getElementById('stih13').innerHTML = '';
+            document.getElementById('stih14').innerHTML = '';
+            document.getElementById('stih15').innerHTML = '';
+            document.getElementById('stih16').innerHTML = '';
+            document.getElementById('stih19').innerHTML = '';
+            document.getElementById('stih20').innerHTML = '';
+            document.getElementById('stih21').innerHTML = '';
+            document.getElementById('stih22').innerHTML = '';
+            document.getElementById('stih23').innerHTML = '';
+            document.getElementById('stih24').innerHTML = '';
+            document.getElementById('stih25').innerHTML = '';
+            document.getElementById('stih26').innerHTML = '';
+            document.getElementById('stih27').innerHTML = '';
+            document.getElementById('stih28').innerHTML = '';
+            document.getElementById('stih29').innerHTML = '';
+            document.getElementById('stih1').innerHTML = 'Whose woods these are I think I know.';
+            document.getElementById('stih2').innerHTML = 'His house is in the village though;';
+            document.getElementById('stih3').innerHTML = 'He will not see me stopping here';
+            document.getElementById('stih4').innerHTML = 'To watch his woods fill up with snow.';
+            document.getElementById('stih5').innerHTML = 'My little horse must think it queer';
+            document.getElementById('stih6').innerHTML = 'To stop without a farmhouse near';
+            document.getElementById('stih7').innerHTML = 'Between the woods and frozen lake';
+            document.getElementById('stih8').innerHTML = 'The darkest evening of the year.';
+            document.getElementById('stih9').innerHTML = 'He gives his harness bells a shake';
+            document.getElementById('stih10').innerHTML = 'To ask if there is some mistake.';
+            document.getElementById('stih11').innerHTML = 'The only other sound’s the sweep';
+            document.getElementById('stih12').innerHTML = 'Of easy wind and downy flake.';
+            document.getElementById('stih13').innerHTML = 'The woods are lovely, dark and deep,';
+            document.getElementById('stih14').innerHTML = 'But I have promises to keep,';
+            document.getElementById('stih15').innerHTML = 'And miles to go before I sleep,';
+            document.getElementById('stih16').innerHTML = 'And miles to go before I sleep.';
+            event.preventDefault();
+          };
+          document.getElementById("nogas").onclick = function (event) {
+            document.getElementById('snowy').innerHTML = '';
+            document.getElementById('snowy').innerHTML = 'In gentler tones Secunda hopes';
+            document.getElementById('snowy').style.fontSize = 'unset';
+            document.getElementById('snowy').style.fontWeight = 'unset';
+            document.getElementById('evening').innerHTML = '';
+            document.getElementById('evening').innerHTML = '"There will be nonsense in it!"—';
+            document.getElementById('evening').style.fontSize = 'unset';
+            document.getElementById('evening').style.fontWeight = 'unset';
+            document.getElementById('robert').innerHTML = '';
+            document.getElementById('robert').innerHTML = 'Not more than once a minute.';
+            document.getElementById('robert').style.fontWeight = 'unset';
+            document.getElementById('stih1').innerHTML = '';
+            document.getElementById('stih2').innerHTML = '';
+            document.getElementById('stih3').innerHTML = '';
+            document.getElementById('stih4').innerHTML = '';
+            document.getElementById('stih5').innerHTML = '';
+            document.getElementById('stih6').innerHTML = '';
+            document.getElementById('stih7').innerHTML = '';
+            document.getElementById('stih8').innerHTML = '';
+            document.getElementById('stih9').innerHTML = '';
+            document.getElementById('stih10').innerHTML = '';
+            document.getElementById('stih11').innerHTML = '';
+            document.getElementById('stih12').innerHTML = '';
+            document.getElementById('stih13').innerHTML = '';
+            document.getElementById('stih14').innerHTML = '';
+            document.getElementById('stih15').innerHTML = '';
+            document.getElementById('stih16').innerHTML = '';
+            document.getElementById('stih19').innerHTML = '';
+            document.getElementById('stih20').innerHTML = '';
+            document.getElementById('stih21').innerHTML = '';
+            document.getElementById('stih22').innerHTML = '';
+            document.getElementById('stih23').innerHTML = '';
+            document.getElementById('stih24').innerHTML = '';
+            document.getElementById('stih25').innerHTML = '';
+            document.getElementById('stih26').innerHTML = '';
+            document.getElementById('stih27').innerHTML = '';
+            document.getElementById('stih28').innerHTML = '';
+            document.getElementById('stih29').innerHTML = '';
+            document.getElementById('stih1').innerHTML = 'The dream-child moving through a land';
+            document.getElementById('stih2').innerHTML = 'Of wonders wild and new,';
+            document.getElementById('stih3').innerHTML = 'In friendly chat with bird or beast—';
+            document.getElementById('stih4').innerHTML = 'And half believe it true.';
+            document.getElementById('stih5').innerHTML = 'And faintly strove that weary one';
+            document.getElementById('stih6').innerHTML = 'To put the subject by,';
+            document.getElementById('stih7').innerHTML = '"The rest next time—" "It is next time!"';
+            document.getElementById('stih8').innerHTML = 'The happy voices cry.';
+            document.getElementById('stih9').innerHTML = 'Its quaint events were hammered out—';
+            document.getElementById('stih10').innerHTML = 'And now the tale is done,';
+            document.getElementById('stih11').innerHTML = 'And home we steer, a merry crew,';
+            document.getElementById('stih12').innerHTML = 'Beneath the setting sun.';
+            document.getElementById('stih13').innerHTML = "Lay it where Childhood's dreams are twined";
+            document.getElementById('stih14').innerHTML = "In Memory's mystic band,";
+            document.getElementById('stih15').innerHTML = "Like pilgrim's withered wreath of flowers";
+            document.getElementById('stih16').innerHTML = 'Plucked in far-off land';
+            document.getElementById('stih19').innerHTML = 'Imperious Prima flashes forth';
+            document.getElementById('stih20').innerHTML = 'Her edict "to begin it"—';
+            document.getElementById('stih21').innerHTML = 'While Tertia interrupts the tale';
+            document.getElementById('stih22').innerHTML = 'And ever, as the story drained';
+            document.getElementById('stih23').innerHTML = 'The wells of fancy dry,';
+            document.getElementById('stih24').innerHTML = 'Thus grew the tale of Wonderland:';
+            document.getElementById('stih25').innerHTML = 'Thus slowly, one by one,';
+            document.getElementById('stih26').innerHTML = 'Alice! A childish story take,';
+            document.getElementById('stih27').innerHTML = 'And with a gentle hand,';
+            document.getElementById('stih28').innerHTML = 'Anon, to sudden silence won,';
+            document.getElementById('stih29').innerHTML = 'In fancy they pursue';
+            document.getElementById("par1").style.color = 'unset';
+            document.getElementById("par2").style.color = 'unset';
+            document.getElementById("par3").style.color = 'unset';
+            document.getElementById("par4").style.color = 'unset';
+            document.getElementById("par5").style.color = 'unset';
+            document.getElementById("par6").style.color = 'unset';
+            document.getElementById("par7").style.color = 'unset';
+            document.getElementById("par1").style.border = 'unset';
+            document.getElementById("par1").style.borderColor = 'unset';
+            document.getElementById("par2").style.border = 'unset';
+            document.getElementById("par2").style.borderColor = 'unset';
+            document.getElementById("par3").style.border = 'unset';
+            document.getElementById("par3").style.borderColor = 'unset';
+            document.getElementById("par4").style.border = 'unset';
+            document.getElementById("par4").style.borderColor = 'unset';
+            document.getElementById("par5").style.border = 'unset';
+            document.getElementById("par5").style.borderColor = 'unset';
+            document.getElementById("par6").style.border = 'unset';
+            document.getElementById("par6").style.borderColor = 'unset';
+            document.getElementById("par7").style.border = 'unset';
+            document.getElementById("par7").style.borderColor = 'unset';
+            event.preventDefault();
+          };
+      ]]>
+    </script>
+  </body>
+</html>

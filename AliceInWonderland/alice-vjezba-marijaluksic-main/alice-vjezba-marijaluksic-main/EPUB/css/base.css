@@ -1,0 +1,287 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+body {
+  line-height: 1.5;
+  margin: 1%;
+  padding: 0;
+  vertical-align: baseline;
+  font-kerning: normal;
+  font-variant: common-ligatures oldstyle-nums proportional-nums;
+  font-feature-settings: "kern", "liga", "clig", "onum", "pnum";
+}
+p {
+  text-align: left;
+  font-family: "latin_modern_roman_dunhil10Rg", serif;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 2;
+  -ms-hyphenate-limit-chars: 6 3 2;
+  -hyphenate-limit-chars: 6 3 2;
+  -webkit-hyphenate-limit-lines: 2;
+  -hyphenate-limit-lines: 2;
+}
+
+p::first-line {
+  text-indent: 1em;
+}
+.prvip::first-line {
+  text-indent: 0em;
+}
+.firstword {
+  font-variant: small-caps;
+  font-family: "latin_modern_roman_caps10Rg", serif;
+}
+
+#kingandqueen {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.text-color {
+  color: inherit;
+  -webkit-text-fill-color: inherit;
+}
+.pjesmakraj {
+  text-align: center;
+  font-style: italic;
+  font-family: "latin_modern_roman10_italic", serif;
+}
+.pjesmakrajnaslov {
+  text-align: center;
+}
+.bibliography {
+  list-style-type: none;
+  margin: 1%;
+  padding: 1%;
+  font-family: "latin_modern_roman_caps10Rg", serif;
+}
+
+span[epub|type="pagebreak"] {
+  page-break-before: always;
+}
+.bibliography li {
+  margin-left: 5%;
+  list-style-type: none;
+  padding: 1%;
+  font-family: "latin_modern_roman_caps10Rg", serif;
+}
+.bibliography ul li::first-line {
+  margin-left: 1%;
+  padding: 1%;
+}
+nav[epub|type="toc"] ol {
+  list-style-type: upper-roman;
+}
+nav[epub|type="toc"] li,
+nav[epub|type="landmarks"] li {
+  font-variant: small-caps;
+}
+
+nav[epub|type="toc"] a,
+nav[epub|type="landmarks"] a {
+  text-decoration: none;
+}
+.kopirajt {
+  margin-top: 15%;
+  text-align: center;
+}
+#childd {
+  font-size: 13pt;
+}
+.iitaliccenter {
+  font-style: italic;
+  text-align: center;
+  font-family: "latin_modern_roman10_italic", serif;
+  margin-top: 15%;
+}
+.kkopirajt {
+  margin-top: 7%;
+  text-align: center;
+}
+.slikicasredinica {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+.kopirajtt {
+  margin-top: 50%;
+}
+.koupirajtt {
+  margin-top: 50%;
+  text-align: center;
+  line-height: 2.2;
+}
+.italic {
+  font-style: italic;
+  font-family: "latin_modern_roman10_italic", serif;
+}
+.italiccenter {
+  font-style: italic;
+  text-align: center;
+  font-family: "latin_modern_roman10_italic", serif;
+}
+.literatura {
+  font-weight: lighter;
+  font-family: "latin_modern_roman_dunhil10Rg", serif;
+}
+.bibliography li {
+  font-weight: bolder;
+}
+h3 {
+  font-variant: common-ligatures lining-nums proportional-nums;
+  font-feature-settings: "kern", "liga", "clig", "lnum", "pnum";
+  font-family: "latin_modern_roman_dunhil10Rg", serif;
+  font-weight: 500;
+  -adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+}
+#aalicee {
+  font-family: "latin_modern_roman10_italic", serif;
+  font-weight: 900;
+  font-size: larger;
+  letter-spacing: 3px;
+  font-size: 30pt;
+}
+#to {
+  font-size: 14pt;
+  display: block;
+  margin-top: 3%;
+}
+h1,
+h2,
+h4,
+.center {
+  text-align: center;
+}
+h1,
+h2,
+h4 {
+  font-variant: common-ligatures lining-nums proportional-nums;
+  font-feature-settings: "kern", "liga", "clig", "lnum", "pnum";
+  font-family: "latin_modern_roman10_bold", serif;
+  -adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+}
+.slikacarroll {
+  float: right;
+  clear: both;
+}
+#alicetitle {
+  clear: both;
+  padding-top: 200px;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.slikasredina {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sslikasredina {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35%;
+}
+.uvlaka1 {
+  margin-left: 15%;
+}
+.uvlaka2 {
+  margin-left: 18%;
+}
+.uvlaka3 {
+  margin-left: 5px;
+}
+.uvlaka4 {
+  margin-left: 4%;
+}
+.uvlaka5 {
+  margin-left: 33%;
+}
+.uvlaka6 {
+  margin-left: 50%;
+}
+.uvlaka7 {
+  margin-left: 21%;
+}
+.uvlaka8 {
+  margin-left: 24%;
+}
+.bozic p {
+  text-indent: 0%;
+}
+.bozic {
+  text-align: center;
+}
+#longneck {
+  float: left;
+  margin: 1%;
+  max-height: 75%;
+  max-width: 45%;
+  clear:both;
+}
+#loongneck {
+  width: 100%;
+  height: 100%;
+}
+.rabbitpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+#affectionate {
+  font-style: italic;
+  text-align: center;
+  font-family: "latin_modern_roman10_italic", serif;
+}
+em,
+i {
+  font-family: "latin_modern_roman10_italic", serif;
+}
+@font-face {
+  font-family: "latin_modern_roman10_italic";
+  src: url("web_fonts/latinmodernroman_10italic_macroman/lmroman10-italic-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "latin_modern_roman_caps10Rg";
+  src: url("web_fonts/latinmodernromancaps_10regular_macroman/lmromancaps10-regular-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "latin_modern_roman_dunhil10Rg";
+  src: url("web_fonts/latinmodernromandunhill_10regular_macroman/lmromandunh10-regular-webfont.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "latin_modern_roman10_bold";
+  src: url("web_fonts/latinmodernroman_10bold_macroman/lmroman10-bold-webfont.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.-epub-media-overlay-active {
+  background-color: #ffff99;
+}
